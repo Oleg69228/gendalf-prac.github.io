@@ -1,3 +1,9 @@
+@media (max-width: 1300px){
+    #new-products {
+      padding: 10px 30px;
+    }
+
+  }
 @media (max-width: 1076px){
     .video_text {
         flex-direction: column;

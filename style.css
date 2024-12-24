@@ -318,7 +318,7 @@ position: fixed;
 #video {
   width: 538px ;
   height: 297px;
-  margin-bottom: 50px;
+  
 }
 .video_block h1{
     margin: 0;
@@ -494,6 +494,7 @@ position: fixed;
   display: block;
   width: 100%;
   height: auto;
+
 }
 .video_text_p {
     display: flex;
@@ -509,6 +510,7 @@ position: fixed;
 #video-container {
   width: clamp(200px, 70vw, 600px);
 	position: relative;
+  margin-bottom: 50px;
 }
 #video-controls {
   display: flex;
@@ -516,10 +518,9 @@ position: fixed;
   font-size:calc(12px + 2 * (100vw - 320px) / 880);
   width: clamp(100px, 71vw, 600px);
 	position: absolute;
-	bottom: 0;
+	bottom: 2%;
 	left: 0;
 	right: 0;
-  top:80%;
   height: 20px;
 	opacity: 0;
 	-webkit-transition: opacity .3s;
